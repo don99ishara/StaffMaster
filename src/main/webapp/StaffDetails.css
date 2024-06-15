@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+/* Style for Employee Details table */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+table.employee-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+table.employee-details th, table.employee-details td {
+    padding: 10px;
+    text-align: left;
+}
+
+table.employee-details th {
+    background: #000000;
+    color: #fff;
+    font-weight: bold;
+}
+
+table.employee-details tr:nth-child(odd) {
+    background: #f4f4f4;
+}
+
+table.employee-details tr:nth-child(even) {
+    background: #fff;
+}
+
+/* Hover effect for table rows */
+table.employee-details tr:hover {
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+/* Style for Edit and Delete buttons */
+button.edit-button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button.delete-button {
+    background: #ff0000;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button.edit-button:hover {
+    background: #444;
+    color: #fff;
+}
+
+button.delete-button:hover {
+    background: #ff3333;
+    color: #000;
+}
+
+h2{
+	margin-top: 100px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,cursive;
+	font-weight: 100;
+	font-size: 40px;
+	margin-left: 45%;
+	
+}
+#btn1 {
+	margin-left: 50%;
+	margin-bottom: 10px;
+	padding: 10px 30px 10px 30px;
+}
